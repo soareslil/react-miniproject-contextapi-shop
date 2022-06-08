@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.product-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.formato{
+    border: 10px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+/* .card{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 10px solid red;
+} */
+
+.icon-shirt{
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid yellow;
+}
+
+.name-and-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+    justify-content: column;
+}
+.product-name{
+    border: 5px solid gray;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+.icon-purchase{
+    border: 5px solid blue;
+}
+
+.product-price{
+    border: 5px solid orange;
+    width: 40px;
+}
