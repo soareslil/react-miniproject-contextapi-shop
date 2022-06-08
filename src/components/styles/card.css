@@ -15,7 +15,8 @@
 }
 
 .formato{
-    border: 10px solid black;
+    border: 1px solid black;
+    border-radius: 5px 20px 5px 20px;
     width: 200px;
     height: 200px;
     margin: 20px;
@@ -40,7 +41,6 @@
     height: 100px;
     align-items: center;
     justify-content: center;
-    border: 10px solid yellow;
 }
 
 .name-and-icon{
@@ -52,18 +52,17 @@
     justify-content: column;
 }
 .product-name{
-    border: 5px solid gray;
     justify-content:center;
     align-items: center;
     text-align: center;
     align-self: center;
 }
 
-.icon-purchase{
+/* .icon-purchase{
     border: 5px solid blue;
-}
+} */
 
-.product-price{
+/* .product-price{
     border: 5px solid orange;
-    width: 40px;
-}
+     width: 40px;
+} */
