@@ -67,3 +67,11 @@
     border: 5px solid orange;
      width: 40px;
 } */
+
+.checkout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
