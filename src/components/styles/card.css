@@ -16,6 +16,7 @@
 
 .formato{
     border: 1px solid black;
+    background-color: lightpink;
     border-radius: 5px 20px 5px 20px;
     width: 200px;
     height: 200px;
