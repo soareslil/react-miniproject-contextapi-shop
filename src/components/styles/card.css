@@ -59,9 +59,9 @@
     align-self: center;
 }
 
-/* .icon-purchase{
-    border: 5px solid blue;
-} */
+.icon-purchase{
+   cursor: pointer;
+}
 
 /* .product-price{
     border: 5px solid orange;
